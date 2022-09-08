@@ -1,0 +1,25 @@
+body{
+    background-color: var(--col);
+}
+
+:root{
+    --col:yellow;
+    --w:green;
+}
+
+body { background-color: var(--col); }
+
+h2 { border-bottom: 2px solid var(--w); }
+
+.container{
+    color: var(--col);
+    background-color: var(--w);
+    padding:15px;
+}
+
+button {
+    background-color: var(--w);
+    color: var(--col);
+    border: 1px solid var(--col);
+    padding: 5px;
+  }
